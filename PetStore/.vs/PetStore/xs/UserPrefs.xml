@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{19E3F786-7A74-42CA-8BB4-EAFE4D2D9450}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PetStore.Services/Repository/Repository.cs">
+    <Files>
+      <File FileName="PetStore.Services/Repository/Repository.cs" Line="94" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PetStore" expanded="True">
+            <Node name="PetStore.Services" expanded="True" selected="True">
+              <Node name="Helper" expanded="True" />
+              <Node name="Repository" expanded="True" />
+            </Node>
+            <Node name="PetStore.Web" expanded="True">
+              <Node name="Logs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PetStore.Web PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

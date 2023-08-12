@@ -1,0 +1,880 @@
+2023-08-10T20:49:11.0115621+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T20:49:11.0225761+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T20:49:11.0451573+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T20:49:11.0473952+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T20:49:11.0493831+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T20:49:38.3849488+10:00 0HMSPHTN2Q6P6:0000000D [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'PetStore.Services.Repository.IReopository.IUnitOfWork' while attempting to activate 'PetStore.Web.Controllers.PetController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method29(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:05:19.1123083+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:05:19.1259194+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:05:19.1539063+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:05:19.1570816+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:05:19.1599398+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:05:24.9190173+10:00 0HMSPI6NL02JJ:00000009 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'PetStore.Services.Repository.IReopository.IUnitOfWork' while attempting to activate 'PetStore.Web.Controllers.PetController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method23(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:08:08.9080570+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:08:08.9208514+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:08:08.9441090+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:08:08.9464745+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:08:08.9488608+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:08:29.7761165+10:00 0HMSPI8A9O1SP:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'PetStore.Services.Repository.IReopository.IUnitOfWork' while attempting to activate 'PetStore.Web.Controllers.PetController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method29(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:09:54.9753293+10:00 0HMSPI8A9O1SQ:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'PetStore.Services.Repository.IReopository.IUnitOfWork' while attempting to activate 'PetStore.Web.Controllers.PetController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method29(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:21:39.0088486+10:00 0HMSPI8A9O1SR:00000027 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'PetStore.Services.Repository.IReopository.IUnitOfWork' while attempting to activate 'PetStore.Web.Controllers.PetController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method51(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:21:57.8362344+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:21:57.8476701+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:21:57.8716543+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:21:57.8741312+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:21:57.8764855+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:22:54.4659303+10:00 0HMSPIG1A0B83:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:37:54.6901256+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:37:54.7106250+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:37:54.7410550+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:37:54.7437611+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:37:54.7460836+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:38:13.4453885+10:00 0HMSPIOUGCREB:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:38:16.6161400+10:00 0HMSPIOUGCREC:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:39:20.3316781+10:00 0HMSPIOUGCRED:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:39:31.5209753+10:00 0HMSPIOUGCREE:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:39:58.3514395+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:39:58.3936354+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:39:58.5688701+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:39:58.5988421+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:39:58.6091366+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:40:04.8215087+10:00 0HMSPIQ38B4RV:0000000F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:40:06.6764726+10:00 0HMSPIQ38B4RV:00000015 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:41:37.3286673+10:00 0HMSPIQ38B4S0:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:41:43.2999565+10:00 0HMSPIQ38B4S0:00000009 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:42:50.6914788+10:00 0HMSPIQ38B4S1:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:43:25.3728068+10:00 0HMSPIQ38B4S2:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:43:27.0460354+10:00 0HMSPIQ38B4S2:00000001 [ERR] Failed executing DbCommand ("316"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Pets] ([Id], [DOB], [Name], [Type], [Weight])
+VALUES (@p0, @p1, @p2, @p3, @p4);" (627a98df)
+2023-08-10T21:43:27.8812843+10:00 0HMSPIQ38B4S2:00000001 [ERR] An exception occurred in the database while saving changes for context type '"PetStore.Services.Data.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Pets' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:f167d4c8-eb27-4d8c-932e-83cddd6d83d3
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Pets' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:f167d4c8-eb27-4d8c-932e-83cddd6d83d3
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at PetStore.Services.Repository.UnitOfWork.Save() in C:\dev\personal\PetStore\PetStore.Services\Repository\UnitOfWork.cs:line 23
+2023-08-10T21:45:40.1056813+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:45:40.1262447+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:45:40.1516573+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:45:40.1553240+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:45:40.1578126+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:46:03.7169274+10:00 0HMSPIT9304UL:00000013 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:46:04.9224993+10:00 0HMSPIT9304UL:00000019 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:46:27.0261293+10:00 0HMSPIT9304UM:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:46:28.0694787+10:00 0HMSPIT9304UM:00000001 [INF] Executed DbCommand ("151"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Pets] ([DOB], [Name], [Type], [Weight])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Pets]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-08-10T21:46:28.2077141+10:00 0HMSPIT9304UM:00000003 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:50:21.3868045+10:00 0HMSPIT9304UN:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:50:21.5936098+10:00 0HMSPIT9304UN:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+2023-08-10T21:50:21.6490510+10:00 0HMSPIT9304UN:00000001 [ERR] Connection id ""0HMSPIT9304UN"", Request id ""0HMSPIT9304UN:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: An error occurred while writing to logger(s). (Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.)
+ ---> System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Reflection.RuntimeMethodInfo.GetCustomAttributes(Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.CreateDefaultLogMessage[TState](TextWriter textWriter, LogEntry`1& logEntry, String message, IExternalScopeProvider scopeProvider)
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.Write[TState](LogEntry`1& logEntry, IExternalScopeProvider scopeProvider, TextWriter textWriter)
+   at Microsoft.Extensions.Logging.Console.ConsoleLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|12_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Logging.Logger.ThrowLoggingError(List`1 exceptions)
+   at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerMessage.<>c__DisplayClass8_0.<Define>g__Log|0(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ ---> (Inner Exception #1) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Reflection.RuntimeMethodInfo.GetCustomAttributes(Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Debug.DebugLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|12_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+ ---> (Inner Exception #2) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Reflection.RuntimeMethodInfo.GetCustomAttributes(Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.EventLog.EventLogLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|12_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+2023-08-10T21:50:33.1616031+10:00 0HMSPIT9304UN:0000000B [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:50:33.1986448+10:00 0HMSPIT9304UN:0000000B [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+2023-08-10T21:50:33.2077721+10:00 0HMSPIT9304UN:0000000B [ERR] Connection id ""0HMSPIT9304UN"", Request id ""0HMSPIT9304UN:0000000B"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: An error occurred while writing to logger(s). (Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.)
+ ---> System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Reflection.RuntimeMethodInfo.GetCustomAttributes(Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.CreateDefaultLogMessage[TState](TextWriter textWriter, LogEntry`1& logEntry, String message, IExternalScopeProvider scopeProvider)
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.Write[TState](LogEntry`1& logEntry, IExternalScopeProvider scopeProvider, TextWriter textWriter)
+   at Microsoft.Extensions.Logging.Console.ConsoleLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|12_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Logging.Logger.ThrowLoggingError(List`1 exceptions)
+   at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerMessage.<>c__DisplayClass8_0.<Define>g__Log|0(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ ---> (Inner Exception #1) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Reflection.RuntimeMethodInfo.GetCustomAttributes(Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Debug.DebugLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|12_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+ ---> (Inner Exception #2) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Pet_Index+<ExecuteAsync>d__14#1' from assembly 'PetStore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Reflection.RuntimeMethodInfo.GetCustomAttributes(Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.EventLog.EventLogLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|12_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+2023-08-10T21:50:44.0366155+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:50:44.0472421+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:50:44.0771717+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:50:44.0798121+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:50:44.0822605+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:50:50.8211744+10:00 0HMSPJ03PEMBI:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:50:50.9710144+10:00 0HMSPJ03PEMBI:00000007 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending, OrderedEnumerable`1 parent)
+   at System.Linq.Enumerable.OrderBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   at AspNetCoreGeneratedDocument.Views_Pet_Index.ExecuteAsync() in C:\dev\personal\PetStore\PetStore.Web\Views\Pet\Index.cshtml:line 37
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:51:18.8462904+10:00 0HMSPJ03PEMBI:0000000F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:51:18.8985528+10:00 0HMSPJ03PEMBI:0000000F [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending, OrderedEnumerable`1 parent)
+   at System.Linq.Enumerable.OrderBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   at AspNetCoreGeneratedDocument.Views_Pet_Index.ExecuteAsync() in C:\dev\personal\PetStore\PetStore.Web\Views\Pet\Index.cshtml:line 37
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:51:23.0488224+10:00 0HMSPJ03PEMBI:00000015 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:51:26.3833097+10:00 0HMSPJ03PEMBI:0000001B [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:51:44.1641781+10:00 0HMSPJ03PEMBI:00000021 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:51:45.2914902+10:00 0HMSPJ03PEMBI:00000021 [INF] Executed DbCommand ("192"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Pets] ([DOB], [Name], [Type], [Weight])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Pets]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-08-10T21:51:45.4373394+10:00 0HMSPJ03PEMBI:00000023 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:51:46.9177121+10:00 0HMSPJ03PEMBI:00000029 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:52:24.8495579+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:52:24.8692594+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:52:24.9903372+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:52:24.9987614+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:52:25.0061792+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:52:30.6722587+10:00 0HMSPJ11MVQ4U:00000009 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:52:30.8301495+10:00 0HMSPJ11MVQ4U:00000009 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending, OrderedEnumerable`1 parent)
+   at System.Linq.Enumerable.OrderBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   at AspNetCoreGeneratedDocument.Views_Pet_Index.ExecuteAsync() in C:\dev\personal\PetStore\PetStore.Web\Views\Pet\Index.cshtml:line 37
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:52:45.5249950+10:00 0HMSPJ11MVQ4V:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:53:40.8363173+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:53:40.8480815+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:53:40.8750111+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:53:40.8777668+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:53:40.8800553+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:53:52.3670797+10:00 0HMSPJ1OCENM5:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:53:53.5075401+10:00 0HMSPJ1OCENM5:00000007 [INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T21:54:00.2750662+10:00 0HMSPJ1OCENM5:0000000D [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:54:00.6372779+10:00 0HMSPJ1OCENM5:0000000D [INF] Executed DbCommand ("56"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T21:54:00.6732726+10:00 0HMSPJ1OCENM5:0000000D [ERR] The view '"Delete"' was not found. Searched locations: ["/Views/Pet/Delete.cshtml", "/Views/Shared/Delete.cshtml"] (9bb2756c)
+2023-08-10T21:54:00.7446023+10:00 0HMSPJ1OCENM5:0000000D [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'Delete' was not found. The following locations were searched:
+/Views/Pet/Delete.cshtml
+/Views/Shared/Delete.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10T21:54:09.6355581+10:00 0HMSPJ1OCENM6:00000003 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:54:09.6433676+10:00 0HMSPJ1OCENM6:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T21:57:39.0979159+10:00 0HMSPJ1OCENM8:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:57:39.1321438+10:00 0HMSPJ1OCENM8:00000001 [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T21:58:52.3027983+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:58:52.3153712+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:58:52.3396107+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:58:52.3420625+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:58:52.3442159+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:59:04.5818990+10:00 0HMSPJ4LAG5PJ:0000000D [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:59:06.5113027+10:00 0HMSPJ4LAG5PJ:0000000D [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T21:59:17.2567570+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T21:59:17.2712067+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T21:59:17.3021706+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T21:59:17.3054837+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T21:59:17.3086546+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T21:59:23.1349470+10:00 0HMSPJ4SLINCL:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:59:24.3966446+10:00 0HMSPJ4SLINCL:00000007 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T21:59:58.9080475+10:00 0HMSPJ4SLINCL:0000000F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T21:59:58.9185141+10:00 0HMSPJ4SLINCL:0000000F [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:00:02.3731834+10:00 0HMSPJ4SLINCL:00000017 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:00:02.3794896+10:00 0HMSPJ4SLINCL:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:08:06.8475416+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:08:06.8555609+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:08:06.8743659+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:08:06.8769011+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:08:06.8790662+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:08:13.7489647+10:00 0HMSPJ9QHQ5FA:00000009 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:08:15.0050374+10:00 0HMSPJ9QHQ5FA:00000009 [INF] Executed DbCommand ("113"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:08:38.7750794+10:00 0HMSPJ9QHQ5FB:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:08:59.1147630+10:00 0HMSPJ9QHQ5FC:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:08:59.5734870+10:00 0HMSPJ9QHQ5FC:00000001 [INF] Executed DbCommand ("83"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Pets] ([DOB], [Name], [Type], [Weight])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Pets]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-08-10T22:08:59.7043908+10:00 0HMSPJ9QHQ5FC:00000003 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:08:59.7122715+10:00 0HMSPJ9QHQ5FC:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:10:24.3392379+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:10:24.3522248+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:10:24.3735023+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:10:24.3753391+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:10:24.3773698+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:10:31.8653591+10:00 0HMSPJB3GIQVF:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:10:33.1478842+10:00 0HMSPJB3GIQVF:00000001 [INF] Executed DbCommand ("107"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:11:02.0172934+10:00 0HMSPJB3GIQVG:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:11:02.0575787+10:00 0HMSPJB3GIQVG:00000007 [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:11:22.4343758+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:11:22.4460439+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:11:22.4719675+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:11:22.4748831+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:11:22.4774760+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:11:28.2652959+10:00 0HMSPJBKRR05I:00000013 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:11:29.3279565+10:00 0HMSPJBKRR05I:00000013 [INF] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:12:12.6948690+10:00 0HMSPJBKRR05J:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:12:12.7056417+10:00 0HMSPJBKRR05J:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:12:24.2692965+10:00 0HMSPJBKRR05K:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:12:24.2750038+10:00 0HMSPJBKRR05K:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:12:28.3160673+10:00 0HMSPJBKRR05L:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:12:28.3185213+10:00 0HMSPJBKRR05L:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:12:30.4974831+10:00 0HMSPJBKRR05L:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:12:30.5020062+10:00 0HMSPJBKRR05L:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:12:46.2661419+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:12:46.2762643+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:12:46.2990964+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:12:46.3015141+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:12:46.3037816+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:12:52.6038954+10:00 0HMSPJCDO455B:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:12:53.8990474+10:00 0HMSPJCDO455B:00000007 [INF] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:13:59.5861789+10:00 0HMSPJCDO455C:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:13:59.7071718+10:00 0HMSPJCDO455C:00000001 [INF] Executed DbCommand ("115"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:14:09.8473483+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:14:09.8554949+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:14:09.8773872+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:14:09.8802565+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:14:09.8825533+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:14:19.7893040+10:00 0HMSPJD6L7VGL:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:14:21.7930448+10:00 0HMSPJD6L7VGL:00000001 [INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:19:01.9836506+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:19:01.9927687+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:19:02.0109710+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:19:02.0134504+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:19:02.0154296+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:19:24.5117626+10:00 0HMSPJFTQ5G10:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:19:25.7040509+10:00 0HMSPJFTQ5G10:00000001 [INF] Executed DbCommand ("81"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:22:12.3178439+10:00 0HMSPJFTQ5G12:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:22:24.5178027+10:00 0HMSPJFTQ5G12:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:23:04.4794084+10:00 0HMSPJFTQ5G12:00000003 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:23:29.1677109+10:00 0HMSPJFTQ5G12:00000003 [INF] Executed DbCommand ("72"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:23:29.1803084+10:00 0HMSPJFTQ5G12:00000005 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:23:34.1969112+10:00 0HMSPJFTQ5G12:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:24:29.0031566+10:00 0HMSPJFTQ5G13:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:24:29.0060658+10:00 0HMSPJFTQ5G13:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:26:26.0004085+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:26:26.0126845+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:26:26.0420879+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:26:26.0462263+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:26:26.0486787+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:26:32.1598658+10:00 0HMSPJK21OOA3:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:26:33.3323269+10:00 0HMSPJK21OOA3:00000007 [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:26:51.7613686+10:00 0HMSPJK21OOA4:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:26:51.7708281+10:00 0HMSPJK21OOA4:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:27:03.5731149+10:00 0HMSPJK21OOA5:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:27:03.5805874+10:00 0HMSPJK21OOA5:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:27:27.1991007+10:00 0HMSPJK21OOA6:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:27:29.6965655+10:00 0HMSPJK21OOA6:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:28:07.0182077+10:00 0HMSPJK21OOA7:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:28:07.0223321+10:00 0HMSPJK21OOA7:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:28:35.9695711+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:28:35.9819378+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:28:36.0119087+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:28:36.0144967+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:28:36.0170231+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:28:42.7784326+10:00 0HMSPJL8OAC6R:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:28:44.8576885+10:00 0HMSPJL8OAC6R:00000001 [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:03.1708896+10:00 0HMSPJL8OAC6T:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:03.2032367+10:00 0HMSPJL8OAC6T:00000001 [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:17.4093931+10:00 0HMSPJL8OAC6U:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:17.4158962+10:00 0HMSPJL8OAC6U:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:19.5775666+10:00 0HMSPJL8OAC6V:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:19.5814908+10:00 0HMSPJL8OAC6V:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:21.3237410+10:00 0HMSPJL8OAC6V:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:21.3274249+10:00 0HMSPJL8OAC6V:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:26.2754466+10:00 0HMSPJL8OAC6V:0000000D [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:26.2794006+10:00 0HMSPJL8OAC6V:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:27.5693955+10:00 0HMSPJL8OAC6V:00000015 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:27.5720472+10:00 0HMSPJL8OAC6V:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:29:27.8012634+10:00 0HMSPJL8OAC6V:0000001B [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:29:27.8043656+10:00 0HMSPJL8OAC6V:0000001B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:30:14.9136025+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:30:14.9283076+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:30:14.9586397+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:30:14.9614749+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:30:14.9645236+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:30:28.5828696+10:00 0HMSPJM69D6V7:00000005 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:30:30.1598875+10:00 0HMSPJM69D6V7:00000005 [INF] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:31:33.0503382+10:00 0HMSPJM69D6V8:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:31:33.1034231+10:00 0HMSPJM69D6V8:00000001 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:32:19.2683785+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:32:19.2770834+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:32:19.3031349+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:32:19.3057263+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:32:19.3080715+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:32:24.6756174+10:00 0HMSPJNB9R5BI:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:32:25.8205607+10:00 0HMSPJNB9R5BI:00000007 [INF] Executed DbCommand ("90"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:32:26.3030927+10:00 0HMSPJNB9R5BI:0000000F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:32:26.3158338+10:00 0HMSPJNB9R5BI:0000000F [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:36:32.7807609+10:00 0HMSPJNB9R5BK:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:36:32.7867649+10:00 0HMSPJNB9R5BK:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:36:32.9950442+10:00 0HMSPJNB9R5BK:0000000B [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:36:32.9993093+10:00 0HMSPJNB9R5BK:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:37:53.4422940+10:00 0HMSPJNB9R5BL:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:38:00.3409688+10:00 0HMSPJNB9R5BM:00000003 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:38:00.3571043+10:00 0HMSPJNB9R5BM:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:42:18.1538544+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:42:18.1610422+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:42:18.1763087+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:42:18.1787025+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:42:18.1801595+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:42:25.6098884+10:00 0HMSPJSTTJ6T9:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:42:26.9016598+10:00 0HMSPJSTTJ6T9:00000007 [INF] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:42:27.5427918+10:00 0HMSPJSTTJ6T9:00000011 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:42:27.5554752+10:00 0HMSPJSTTJ6T9:00000011 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:42:50.0719810+10:00 0HMSPJSTTJ6T9:00000013 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:42:50.4712130+10:00 0HMSPJSTTJ6T9:00000013 [INF] Executed DbCommand ("53"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:42:50.6415846+10:00 0HMSPJSTTJ6T9:00000013 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Pets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-08-10T22:42:50.6844207+10:00 0HMSPJSTTJ6T9:00000015 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:42:50.6881134+10:00 0HMSPJSTTJ6T9:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:43:25.0005908+10:00 0HMSPJSTTJ6T9:00000019 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:43:25.0036535+10:00 0HMSPJSTTJ6T9:00000019 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:43:25.2000066+10:00 0HMSPJSTTJ6T9:00000021 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:43:25.2021877+10:00 0HMSPJSTTJ6T9:00000021 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:45:26.3914362+10:00 0HMSPJSTTJ6T9:00000023 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:45:26.4010376+10:00 0HMSPJSTTJ6T9:00000023 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:45:35.9879864+10:00 0HMSPJSTTJ6T9:00000025 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:45:35.9925433+10:00 0HMSPJSTTJ6T9:00000025 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:46:01.8277082+10:00 0HMSPJSTTJ6T9:00000027 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:46:01.8315661+10:00 0HMSPJSTTJ6T9:00000027 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:46:02.2810111+10:00 0HMSPJSTTJ6T9:0000003F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:46:02.2856115+10:00 0HMSPJSTTJ6T9:0000003F [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:47:46.0961430+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T22:47:46.1046042+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T22:47:46.1261297+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T22:47:46.1281581+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T22:47:46.1300223+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
+2023-08-10T22:47:53.9785842+10:00 0HMSPJVVJE1KA:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:47:55.7733352+10:00 0HMSPJVVJE1KA:00000007 [INF] Executed DbCommand ("99"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:47:56.5535522+10:00 0HMSPJVVJE1KA:0000000F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:47:56.7419490+10:00 0HMSPJVVJE1KA:0000000F [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:49:25.3937716+10:00 0HMSPJVVJE1KB:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:25.4328896+10:00 0HMSPJVVJE1KB:00000001 [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:49:25.6472183+10:00 0HMSPJVVJE1KC:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:25.6516767+10:00 0HMSPJVVJE1KC:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:49:38.7138780+10:00 0HMSPJVVJE1KD:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:38.7182663+10:00 0HMSPJVVJE1KD:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:49:38.8249079+10:00 0HMSPJVVJE1KD:00000009 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:38.8284713+10:00 0HMSPJVVJE1KD:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:49:41.1163129+10:00 0HMSPJVVJE1KD:0000000B [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:41.5117952+10:00 0HMSPJVVJE1KD:0000000B [INF] Executed DbCommand ("59"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:49:49.8143729+10:00 0HMSPJVVJE1KE:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:50.2128428+10:00 0HMSPJVVJE1KE:00000001 [INF] Executed DbCommand ("185"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Pets] SET [DOB] = @p0, [Name] = @p1, [Type] = @p2, [Weight] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-08-10T22:49:50.2700131+10:00 0HMSPJVVJE1KE:00000003 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:50.2745211+10:00 0HMSPJVVJE1KE:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:49:50.4511908+10:00 0HMSPJVVJE1KE:0000000B [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:49:50.4691502+10:00 0HMSPJVVJE1KE:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:50:20.0825213+10:00 0HMSPJVVJE1KF:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:50:20.1009761+10:00 0HMSPJVVJE1KF:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:19.9548285+10:00 0HMSPJVVJE1KH:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:19.9642619+10:00 0HMSPJVVJE1KH:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:24.1694852+10:00 0HMSPJVVJE1KH:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:24.1752417+10:00 0HMSPJVVJE1KH:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:26.2041701+10:00 0HMSPJVVJE1KI:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:26.2100656+10:00 0HMSPJVVJE1KI:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:27.9022284+10:00 0HMSPJVVJE1KI:00000007 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:27.9077768+10:00 0HMSPJVVJE1KI:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:28.1363694+10:00 0HMSPJVVJE1KI:0000000D [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:28.1422174+10:00 0HMSPJVVJE1KI:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:32.3548072+10:00 0HMSPJVVJE1KI:00000013 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:32.5277532+10:00 0HMSPJVVJE1KI:00000013 [INF] Executed DbCommand ("168"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Pets] SET [DOB] = @p0, [Name] = @p1, [Type] = @p2, [Weight] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-08-10T22:51:32.5365443+10:00 0HMSPJVVJE1KI:00000015 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:32.5390891+10:00 0HMSPJVVJE1KI:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:51:32.6648077+10:00 0HMSPJVVJE1KI:0000001D [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:32.6681415+10:00 0HMSPJVVJE1KI:0000001D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]" (0723d8ff)
+2023-08-10T22:51:34.0394444+10:00 0HMSPJVVJE1KI:0000001F [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)
+2023-08-10T22:51:34.0439305+10:00 0HMSPJVVJE1KI:0000001F [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[DOB], [p].[Name], [p].[Type], [p].[Weight]
+FROM [Pets] AS [p]
+WHERE [p].[Id] = @__id_0" (0723d8ff)
+2023-08-10T22:51:38.4163624+10:00 0HMSPJVVJE1KJ:00000001 [INF] Entity Framework Core "6.0.13" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.13"' with options: "None" (d2805559)

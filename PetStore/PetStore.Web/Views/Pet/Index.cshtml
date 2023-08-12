@@ -1,0 +1,63 @@
+﻿@model List<Pet>
+
+<h1>Welcome to Pet Store!</h1>
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Pet List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <a asp-controller="Pet" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i>  Add Pet
+                </a>
+            </div>
+        </div>
+
+        <table id="tblData" class="table table-bordered table-striped">
+            <thead>
+                <tr  class="bg-dark text-light">
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Date of Birth</th>
+                    <th>Weight(Kg)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            </table>
+           @* </thead>
+            <tbody class="bg-opacity-75 bg-light">
+                @foreach (var obj in Model)
+                {
+                    <tr>
+                        <td>@obj.Name</td>
+                        <td>
+                            @obj.Type
+                        </td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Pet" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+                                <a asp-controller="Pet" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                    <i class="bi bi-trash-fill"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>*@
+
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/pet.js"></script>
+}

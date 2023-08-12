@@ -1,0 +1,5 @@
+2023-08-10T19:47:14.6596674+10:00  [INF] Now listening on: "https://localhost:7267" (d826f4b8)
+2023-08-10T19:47:14.6734466+10:00  [INF] Now listening on: "http://localhost:5267" (d826f4b8)
+2023-08-10T19:47:14.7140279+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-08-10T19:47:14.7165164+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-08-10T19:47:14.7194776+10:00  [INF] Content root path: "C:\dev\personal\PetStore\PetStore.Web\" (b5d60022)
