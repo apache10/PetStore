@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Web/PetStore.Web.csproj": {}
+    "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Web/PetStore.Web.csproj": {}
   },
   "projects": {
-    "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/PetStore.Services.csproj": {
+    "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/PetStore.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/PetStore.Services.csproj",
+        "projectUniqueName": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/PetStore.Services.csproj",
         "projectName": "PetStore.Services",
-        "projectPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/PetStore.Services.csproj",
+        "projectPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/PetStore.Services.csproj",
         "packagesPath": "/Users/gauravgupta/.nuget/packages/",
-        "outputPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/obj/",
+        "outputPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gauravgupta/.nuget/NuGet/NuGet.Config"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Web/PetStore.Web.csproj": {
+    "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Web/PetStore.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Web/PetStore.Web.csproj",
+        "projectUniqueName": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Web/PetStore.Web.csproj",
         "projectName": "PetStore.Web",
-        "projectPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Web/PetStore.Web.csproj",
+        "projectPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Web/PetStore.Web.csproj",
         "packagesPath": "/Users/gauravgupta/.nuget/packages/",
-        "outputPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Web/obj/",
+        "outputPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gauravgupta/.nuget/NuGet/NuGet.Config"
@@ -98,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/PetStore.Services.csproj": {
-                "projectPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/PetStore.Services.csproj"
+              "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/PetStore.Services.csproj": {
+                "projectPath": "/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/PetStore.Services.csproj"
               }
             }
           }

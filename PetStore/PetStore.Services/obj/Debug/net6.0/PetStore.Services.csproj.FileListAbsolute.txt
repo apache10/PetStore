@@ -26,3 +26,17 @@ C:/dev/personal/PetStore/PetStore.Services/obj/Debug/net6.0/ref/PetStore.Service
 /Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.pdb
 /Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.genruntimeconfig.cache
 /Users/gauravgupta/Desktop/personal/PetStore/PetStore.Services/obj/Debug/net6.0/ref/PetStore.Services.dll
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/bin/Debug/net6.0/PetStore.Services.deps.json
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/bin/Debug/net6.0/PetStore.Services.runtimeconfig.json
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/bin/Debug/net6.0/PetStore.Services.dll
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/bin/Debug/net6.0/PetStore.Services.pdb
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.csproj.AssemblyReference.cache
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.AssemblyInfoInputs.cache
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.AssemblyInfo.cs
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.csproj.CoreCompileInputs.cache
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.dll
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/refint/PetStore.Services.dll
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.pdb
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/PetStore.Services.genruntimeconfig.cache
+/Users/gauravgupta/Desktop/personal/PetStore/PetStore/PetStore.Services/obj/Debug/net6.0/ref/PetStore.Services.dll
